@@ -1,0 +1,24 @@
+{
+	"name":"New Tab",
+	"description":"Clean New Tab Layout",
+	"version":"1.0",
+	"manifest_version":2,
+	
+	"browser_action":{
+		"default_icon":"icon.png",
+		"default_popup":"popup.html"
+		},
+	"chrome_url_overrides":{
+		"newtab":"index.html"
+		},	
+	"permissions":[
+		"tabs",
+		"storage"
+		],
+  	"content_scripts": [{
+			"matches": ["http://www.google.com/*"],
+			"js": ["displayDate.js"],	
+			"js": ["displayTime.js"],		
+			"css":["style.css"]		
+		}]	
+}
