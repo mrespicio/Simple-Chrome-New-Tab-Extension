@@ -5,9 +5,7 @@ input{
 	background-color: transparent;
 	border: transparent;
 	font-family: "Lucida Console", "Monaco", "monospace";
-
 }
-
 .boxDate{
 	background-color: #ffffff;
 	opacity: 0.6;
@@ -19,7 +17,6 @@ input{
 	margin-top: 10%;
 	box-shadow: 10px 10px;
 }
-
 .boxTime{
 	background-color: #ffffff;
 	opacity: 0.6;
