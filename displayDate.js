@@ -1,3 +1,7 @@
+// By: Megan Respicio
+// Date: December 2017
+// Github: github.com/mrespicio
+
 function checkNum(i){
 	if(i<10) i = "0"+i;
 	return i;
